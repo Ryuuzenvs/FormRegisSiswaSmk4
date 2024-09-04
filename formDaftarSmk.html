@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Pendaftaran Siswa SMK</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulir Pendaftaran Siswa Baru SMK 4</h1>
+        <form>
+            <label for="nama">Nama Lengkap:</label>
+            <input type="text" id="nama" name="nama" required>
+
+            <label for="alamat">Alamat:</label>
+            <textarea id="alamat" name="alamat" required></textarea>
+
+            <label for="nis">NIS:</label>
+            <input type="text" id="nis" name="nis" required>
+
+            <label for="nisn">NISN:</label>
+            <input type="text" id="nisn" name="nisn" required>
+
+            <label for="nisn">Ayah :</label>
+            <input type="text" id="ayah" name="ayah" required>
+
+            <label for="nisn">Ibu :</label>
+            <input type="text" id="ibu" name="ibu" required>
+            <br>
+
+            <label for="jenis_kelamin"><strong>Jenis Kelamin:</strong></label>
+            <input type="radio" id="laki-laki" name="jenis_kelamin" value="laki-laki">
+            <label for="laki-laki">Laki-laki</label>
+
+            <input type="radio" id="perempuan" name="jenis_kelamin" value="perempuan">
+            <label for="perempuan">Perempuan</label>
+
+            <h2>Pilih Jurusan:</h2>
+            <input type="radio" id="jurusan1" name="jurusan" value="jurusan1">
+            <label for="jurusan1">Rekayasa Perangkat Lunak</label>
+            <input type="radio" id="jurusan2" name="jurusan" value="jurusan2">
+            <label for="jurusan2">Teknik Logistik</label>
+            <input type="radio" id="jurusan3" name="jurusan" value="jurusan2">
+            <label for="jurusan2">Desain komunikasi visual</label><br>
+            <input type="radio" id="jurusan4" name="jurusan" value="jurusan2">
+            <label for="jurusan2">Kimia </label><br>
+            <input type="radio" id="jurusan5" name="jurusan" value="jurusan2">
+            <label for="jurusan2">Analisa Pengujian Laboratorium</label><br>
+            <button type="submit" class="submit">Daftar</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
